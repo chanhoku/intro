@@ -6,7 +6,10 @@ module.exports = {
     extend: {
       colors:{
         'main':'#004655',
-      }
+      },
+      fontFamily:{
+        'sans':['Noto Sans JP']
+      },
     },
   },
   plugins: [],
