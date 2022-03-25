@@ -12,7 +12,7 @@ export const Skills = () => {
     { name:'other', detail:'python, excel(vba)...', icon:<FaTools /> },
   ];
     return (
-      <section id="skills" className="py-24 px-4 bg-main text-white">
+      <section id="skills" className="py-24 px-4 bg-main text-white shadow drop-shadow">
         <h2 className="text-5xl text-center font-semibold">Skills</h2>
         <div className="mt-12 flex justify-center">
           <ul className="flex flex-col md:flex-row md:flex-wrap text-main w-7/12 md:w-full md:max-w-3xl justify-center">
