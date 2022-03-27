@@ -1,12 +1,13 @@
-import { IconContext } from 'react-icons'
+import { IconContext } from 'react-icons';
 import {FaHtml5, FaCss3Alt, FaJs, FaPhotoVideo, FaFigma, FaGitAlt, FaTools} from 'react-icons/fa';
+import {SiAdobephotoshop} from 'react-icons/si';
 
 export const Skills = () => {
   const skillData = [
     { name:'html', detail:'ejs, pug', icon:<FaHtml5 /> },
     { name:'css', detail:'sass, stylus, Tailwind css', icon:<FaCss3Alt /> },
     { name:'javascript', detail:'es6, jquery, node.js, react', icon:<FaJs /> },
-    { name:'Photoshop', detail:'', icon:<FaPhotoVideo /> },
+    { name:'Photoshop', detail:'', icon:<SiAdobephotoshop /> },
     { name:'Figma', detail:'', icon:<FaFigma /> },
     { name:'Git', detail:'sourcetree, github', icon:<FaGitAlt /> },
     { name:'other', detail:'python, excel(vba)...', icon:<FaTools /> },
