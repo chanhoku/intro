@@ -9,9 +9,9 @@ export const Contact = () => {
         <div className="flex mt-12 justify-center">
           <ul className="flex">
             <IconContext.Provider value={{ size: '50px' }}>
-            <li className="mx-2 coursol-pointer"><a href="" target="_blank"><FaTwitter /></a></li>
-            <li className="mx-2 coursol-pointer"><a href="https://github.com/chanhoku" target="_blank"><FaGithub /></a></li>
-            <li className="mx-2 coursol-pointer"><a href="https://soundcloud.com/hokutys-1" target="_blank"><SiSoundcloud /></a></li>
+            <li className="mx-2 coursol-pointer"><a href="https://github.com/chanhoku" target="noreferrer"><FaTwitter /></a></li>
+            <li className="mx-2 coursol-pointer"><a href="https://github.com/chanhoku" target="noreferrer"><FaGithub /></a></li>
+            <li className="mx-2 coursol-pointer"><a href="https://soundcloud.com/hokutys-1" target="noreferrer"><SiSoundcloud /></a></li>
             </IconContext.Provider>
           </ul>
         </div>
