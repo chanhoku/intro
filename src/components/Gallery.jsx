@@ -19,7 +19,7 @@ export const Gallery = () => {
           <ul className="flex flex-col md:flex-row md:flex-wrap text-main w-7/12 md:w-full md:max-w-3xl justify-center">
             { gallery.map((gallerys) =>
               <li className="mt-4 md:mx-2 shadow-xl drop-shadow md:w-1/4 relative cursor-pointer hover:scale-110">
-                <a href={gallerys.link} target="_blank">
+                <a href={gallerys.link} target="_blank" rel="noreferrer">
                   <p className="bg-main border border-white text-white absolute top-0 p-1 text-xs">{gallerys.type}</p>
                   <div className="object-cover"><img src={gallerys.img} alt={gallerys.name} /></div>
                   <p className="text-center p-1 text-sm">{gallerys.name}</p>
