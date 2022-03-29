@@ -1,5 +1,5 @@
 import { IconContext } from 'react-icons';
-import {FaHtml5, FaCss3Alt, FaJs, FaPhotoVideo, FaFigma, FaGitAlt, FaTools} from 'react-icons/fa';
+import {FaHtml5, FaCss3Alt, FaJs, FaFigma, FaGitAlt, FaTools} from 'react-icons/fa';
 import {SiAdobephotoshop} from 'react-icons/si';
 
 export const Skills = () => {
