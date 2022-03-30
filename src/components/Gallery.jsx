@@ -6,7 +6,7 @@ import musicImage04 from "../images/gallery_music_04.jpg";
 
 export const Gallery = () => {
   const gallery = [
-    {type:'website', img:webImage01, name:'HALUKA様ウェブ', link:''},
+    {type:'website', img:webImage01, name:'HALUKA様ウェブ', link:'https://github.com/chanhoku/HALUKA'},
     {type:'music', img:musicImage01, name:'同人CD：眠覚醒少女', link:'https://soundcloud.com/hokutys-1/arient-remix-demo-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'},
     {type:'music', img:musicImage02, name:'同人CD：こうまかん！', link:'https://soundcloud.com/hokutys-1/pru1kdwpj0ai?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'},
     {type:'music', img:musicImage03, name:'同人CD：Over current', link:'https://soundcloud.com/hokutys-1/unuplifting-trance-remix-2016?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'},
